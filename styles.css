@@ -4,6 +4,7 @@
   justify-content: center;
   background: black;
   width: 1200px;
+  font-family: sans-serif;
 }
 
 
@@ -49,7 +50,7 @@
   display: flex;
   flex-direction: column;
   background: rgb(250, 253, 253);
-  width: 500px;
+  width: 600px;
 }
 
 .content {
@@ -57,9 +58,8 @@
   flex-direction: column;
   font-weight: bold;
   font-size: 13px;
-  font-family: sans-serif;
   background: rgb(237, 247, 246);
-  width: 500px;
+  width: 600px;
   height: 220px;
 }
 
@@ -70,4 +70,22 @@
 
 .content-text2 {
   margin-left: 30px;
+}
+
+.details {
+  background-color: rgb(240, 235, 235);
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-header {
+  margin-left: 20px;
+}
+
+.form {
+  display:flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 170px;
+  margin-bottom: 20px;
 }
