@@ -1,6 +1,15 @@
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: black;
+  width: 1200px;
+}
+
+
 .image-container {
   background: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
-  width: 350px;
+  width: 300px;
   height:550px;
   display: flex;
   flex-direction: column;
@@ -14,7 +23,7 @@
   color: white;
   font-size: 50px;
   font-family: 'Norse', sans-serif;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .logo {
@@ -34,4 +43,31 @@
 
 .line {
   text-decoration: underline;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  background: rgb(250, 253, 253);
+  width: 500px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: sans-serif;
+  background: rgb(237, 247, 246);
+  width: 500px;
+  height: 220px;
+}
+
+.content-text1 {
+  margin: 80px 100px 10px 30px;
+  width: 400px;
+}
+
+.content-text2 {
+  margin-left: 30px;
 }
