@@ -1,0 +1,26 @@
+.image-container {
+  display: flex;
+  background: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+  width: 500px;
+  height:550px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-text {
+  width: 500px;
+  height: 100px;
+  background: rgba(5, 5, 4, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Norse', sans-serif;
+  margin-bottom: 200px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
