@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up Form</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="body-container">
@@ -29,37 +29,39 @@
           <p class="content-text2">You know you want to.</p>
         </div>
         <div class="details">
-          <p class="detail-header">Let's do this!</p>
-          <div class="form-body">
-            <div class="form-1">
-              <form>
-                <label for="first_name">First Name</label><br />
-                <input type="text" name="first_name" id="first_name" /><br /><br />
-
-                <label for="last_name">Last Name</label><br />
-                <input type="text" name="last_name" id="last_name" /><br /><br />
-
-                <label for="email">Email</label><br />
-                <input type="text" name="email" id="email" />
-              </form>
+          <form>
+            <p class="detail-header">Let's do this!</p>
+            <div class="form-body">
+              <div class="form-lists">
+                <div class="forms left">
+                  <label for="first_name">First Name</label>
+                  <input type="text" name="first_name" id="first_name" required/>
+  
+                  <label for="last_name">Last Name</label>
+                  <input type="text" name="last_name" id="last_name" required/>
+  
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email" required/>
+                </div>
+                
+                <div class="forms right">
+                  <label for="phone_number">Phone Number</label>
+                  <input type="tel" name="phone_number" id="phone_number" required/>
+  
+                  <label for="password">Password</label>
+                  <input class="error" type="password" name="password" id="password" required/>
+  
+                  <label for="confirm_password">Confirm Password</label>
+                  <input type="password" name="confirm_password" id="confirm_password" required/>
+                </div>
+              </div>
+              
+              <div class="account">
+                <button type="submit" class="acc-button">Create Account</button>
+                <p class="link-text">Already have an account?<a href="#" class="link">log in</a></p>
+              </div>
             </div>
-            <div class="form-2">
-              <form>
-                <label for="phone_number">Phone Number</label><br />
-                <input type="tel" name="phone_number" id="phone_number" /><br /><br />
-
-                <label for="password">Password</label><br />
-                <input class="error" type="password" name="password" id="password" /><br /><br />
-
-                <label for="confirm_password">Confirm Password</label><br />
-                <input type="password" name="confirm_password" id="confirm_password" />
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="account">
-          <button type="submit" class="acc-button">Create Account</button>
-          <p class="link-text">Already have an account?<a href="#" class="link">log in</a></p>
+          </form>
         </div>
       </div>
     </div>
