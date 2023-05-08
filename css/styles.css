@@ -110,6 +110,7 @@
 }
 
 input {
+  border-style: ridge;
   outline: none;
   width: 150px;
 }
