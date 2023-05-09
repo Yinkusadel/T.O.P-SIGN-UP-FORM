@@ -23,6 +23,7 @@
   width: 30%;
   display: flex;
   flex-direction: column;
+  background-repeat: no-repeat;
 }
 
 .image-text {
@@ -116,8 +117,10 @@
 input {
   border-style: ridge;
   outline: none;
-  width: 150px;
+  width: 200px;
+  border-width: thin;
   margin-bottom: 5px;
+  border-radius: 5px;
 }
 
 .input:invalid {
@@ -152,8 +155,8 @@ input {
 }
 
 .acc-button:hover {
-  color: black;
-  background-color: #363232;
+  background-color: #ffff;
+  color: #000;
 }
 
 .link-text {
