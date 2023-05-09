@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
-  height: 100vh;
+  position: relative;
 }
 
 .image-text {
@@ -35,8 +35,12 @@
   color: white;
   font-size: 50px;
   font-family: Norse-Bold, sans-serif;
-  margin-top: 120px;
   padding: 10px;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 27%;
 }
 
 .logo {
@@ -48,10 +52,12 @@
   color: rgb(247 236 236);
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 150px;
   font-size: 10px;
   font-weight: 100;
+  position: absolute;
+  left: 0;
+  bottom: 2%;
+  right: 0;
 }
 
 .line {
@@ -63,7 +69,6 @@
   flex-direction: column;
   background: rgb(250 253 253);
   width: 70%;
-  height: 100vh;
 }
 
 .content {
