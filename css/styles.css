@@ -109,20 +109,35 @@
   flex-direction: column;
 }
 
+.label .input {
+  display: block;
+}
+
 input {
   border-style: ridge;
   outline: none;
   width: 150px;
+  margin-bottom: 5px;
 }
 
-input:focus {
-  border: 1px solid blue;
-  border-radius: 2px;
+.input:invalid {
+  border: 1px solid #ee0e0e;
 }
 
-input:active {
-  border: 1px solid green;
-  border-radius: 2px;
+.input:focus {
+  border-color: #0000;
+  box-shadow: 0 2px 6px #000;
+  border-bottom: none;
+}
+
+.error {
+  display: none;
+}
+
+.input:invalid + .error {
+  display: block;
+  color: #ff0101;
+  margin-top: 2px;
 }
 
 .acc-button {
@@ -134,6 +149,11 @@ input:active {
   background: #596d48;
   color: white;
   box-shadow: 3px 3px #ebe3e3;
+}
+
+.acc-button:hover {
+  color: black;
+  background-color: #363232;
 }
 
 .link-text {

@@ -1,19 +1,16 @@
 # T.O.P SIGN UP FORM
 
-> A sign up webpage built using semantic HTML tags, flex box,CSS typography...
+> A sign up webpage built using semantic HTML tags,CSS font-face, flex box,CSS typography...
 
 ![screenshot](./app_screenshot.png)
 
 ## Built With
 
 - ### HTML5 elements
-  - **Block element**
-    `div` `p`
-  - **Inline element**
-    `span`
-  - **form element**
-    `input` `label`
+  - **Block element** `div` `p`
+  - **form element** `input` `label`
 - ### CSS properties
+  - CSS font-face used to specify  a custom font to display text `@font-face`
   - CSS Typography `font-size`, `font-style`, `font-family` `text-align`
   - CSS `flexbox`
   - CSS background for page aesthetic using `background-color` `background-image`
