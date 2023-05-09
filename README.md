@@ -10,7 +10,7 @@
   - **Block element** `div` `p`
   - **form element** `input` `label`
 - ### CSS properties
-  - CSS font-face used to specify  a custom font to display text `@font-face`
+  - CSS font-face used to specify a custom font to display text `@font-face`
   - CSS Typography `font-size`, `font-style`, `font-family` `text-align`
   - CSS `flexbox`
   - CSS background for page aesthetic using `background-color` `background-image`
