@@ -35,7 +35,7 @@
               <div class="form-lists">
                 <div class="forms left">
                   <label for="first_name" class="label"
-                    >First Name
+                    >FIRST NAME
                     <input
                       class="input"
                       type="text"
@@ -46,8 +46,35 @@
                     />
                   </label>
 
+                  <label for="email" class="label"
+                    >EMAIL
+                    <input
+                      class="input"
+                      type="email"
+                      name="email"
+                      id="email"
+                      autocomplete="email"
+                      required
+                    />
+                  </label>
+
+                  <label for="password" class="label"
+                    >PASSWORD
+                    <input
+                      class="input"
+                      type="password"
+                      name="password"
+                      id="password"
+                      autocomplete="new-password"
+                      required
+                    />
+                    <p class="error">*Passwords do not match</p>
+                  </label>
+                </div>
+
+                <div class="forms right">
                   <label for="last_name" class="label"
-                    >Last Name
+                    >LAST NAME
                     <input
                       class="input"
                       type="text"
@@ -58,22 +85,8 @@
                     />
                   </label>
 
-                  <label for="email" class="label"
-                    >Email
-                    <input
-                      class="input"
-                      type="email"
-                      name="email"
-                      id="email"
-                      autocomplete="email"
-                      required
-                    />
-                  </label>
-                </div>
-
-                <div class="forms right">
                   <label for="phone_number" class="label"
-                    >Phone Number
+                    >PHONE NUMBER
                     <input
                       autocomplete="off"
                       class="input"
@@ -84,20 +97,8 @@
                     />
                   </label>
 
-                  <label for="password" class="label"
-                    >Password
-                    <input
-                      class="input"
-                      type="password"
-                      name="password"
-                      id="password"
-                      autocomplete="new-password"
-                      required
-                    />
-                  </label>
-
                   <label for="confirm_password" class="label"
-                    >Confirm Password
+                    >CONFIRM PASSWORD
                     <input
                       autocomplete="new-password"
                       class="input"
@@ -106,7 +107,6 @@
                       id="confirm_password"
                       required
                     />
-                    <p class="error">*Passwords do not match</p>
                   </label>
                 </div>
               </div>

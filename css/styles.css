@@ -116,6 +116,7 @@
 .forms {
   display: flex;
   flex-direction: column;
+  font-weight: bold;
 }
 
 .label .input {
