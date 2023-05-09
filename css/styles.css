@@ -16,6 +16,7 @@
   background: black;
   width: 100%;
   font-family: sans-serif;
+  height: 100vh;
 }
 
 .image-container {
@@ -24,6 +25,7 @@
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .image-text {
@@ -47,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
+  margin-top: 150px;
   font-size: 10px;
   font-weight: 100;
 }
@@ -61,6 +63,7 @@
   flex-direction: column;
   background: rgb(250 253 253);
   width: 70%;
+  height: 100vh;
 }
 
 .content {
