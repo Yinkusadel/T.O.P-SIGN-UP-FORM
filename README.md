@@ -1,27 +1,35 @@
-# Project Name
+# T.O.P SIGN UP FORM
 
-> One paragraph statement about the project.
+> A sign up webpage built using semantic HTML tags,CSS font-face, flex box,CSS typography...
 
 ![screenshot](./app_screenshot.png)
 
-Additional description of the project and its features.
-
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- ### HTML5 elements
+  - **Block element** `div` `p`
+  - **form element** `input` `label`
+- ### CSS properties
+  - CSS font-face used to specify a custom font to display text `@font-face`
+  - CSS Typography `font-size`, `font-style`, `font-family` `text-align`
+  - CSS `flexbox`
+  - CSS background for page aesthetic using `background-color` `background-image`
+- ### Linters
+  - [prettier](prettier),
+  - [stylelint](stylelint).
+
+### GitHub Action
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](top-signup-form.netlify.app)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/Yinkusadel/T.O.P-SIGN-UP-FORM/pull/1
 
 ```
 
@@ -65,14 +73,13 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@yinkusadel](https://github.com/yinkusadel)
+- Twitter: [@HashiraAdel](https://twitter.com/HashiraAdel)
+- Linkedin: [@adeleyeolayinka](https://www.linkedin.com/in/adeleye-olayinka/)
 
 ## 🤝 Contributing
 
@@ -86,9 +93,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- T.O.P: [@T.O.P-landing-page](https://www.theodinproject.com/lessons/intermediate-html-and-css-sign-up-form)
 
 ## 📝 License
 
